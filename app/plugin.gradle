@@ -1,0 +1,41 @@
+class Extension1{
+    String testExtension1 = null
+}
+
+class Extension2{
+    String testExtension2 = null
+}
+
+/**
+ *插件入口类
+ */
+class TestPlugin implements Plugin<Project>{
+    @Override
+    void apply(Project project){
+        //利用Extension创建e1 e2 闭包，用于接受外部传递的参数值
+        project.extensions.create('e1', Extension1)
+        project.extensions.create('e2', Extension2)
+
+        //创建readExtension task 执行该task 进行参数值的读取以及自定义逻辑...
+        project.task('readExtension') << {
+
+            println 'e1 = ' + project['e1'].testExtension1
+            println 'e2 = ' + project['e2'].testExtension2
+        }
+    }
+
+}
+
+/**
+ * 依赖我们刚刚自定义的TestPlugin，注意 使用e1 {} || e2{} 一定要放在apply plugin:TestPlugin 后面, 因为 app plugin:TestPlugin
+ * 会执行 Plugin的apply 方法，进而利用Extension 将e1 、e2 和 Extension1 Extension2 绑定，编译器才不会报错
+ */
+apply plugin: TestPlugin
+
+e1 {
+    testExtension1 = 'testVariable1'
+}
+
+e2 {
+    testExtension2 = 'testVariable2'
+}

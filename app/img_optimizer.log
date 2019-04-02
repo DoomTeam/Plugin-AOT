@@ -1,0 +1,28 @@
+2019-03-21 11:19:56  info:  Task optimizeAppRelease begin:
+----------------------------------------
+2019-03-21 11:19:56  info:  10 images need to be optimized.
+----------------------------------------
+2019-03-21 11:19:57  info:  Succeed! 2343B-->2328B, 0.64020485% saved! F:\zero-android\matrix-master\samples\TestPlugin\app\src\main\res\mipmap-hdpi\ic_launcher.png
+----------------------------------------
+2019-03-21 11:19:57  info:  Succeed! 3215B-->3092B, 3.8258164% saved! F:\zero-android\matrix-master\samples\TestPlugin\app\src\main\res\mipmap-hdpi\ic_launcher_round.png
+----------------------------------------
+2019-03-21 11:19:57  warn:  Skipped! F:\zero-android\matrix-master\samples\TestPlugin\app\src\main\res\mipmap-mdpi\ic_launcher.png
+----------------------------------------
+2019-03-21 11:19:57  info:  Succeed! 2260B-->2252B, 0.3539823% saved! F:\zero-android\matrix-master\samples\TestPlugin\app\src\main\res\mipmap-mdpi\ic_launcher_round.png
+----------------------------------------
+2019-03-21 11:19:57  info:  Succeed! 2912B-->2885B, 0.9271978% saved! F:\zero-android\matrix-master\samples\TestPlugin\app\src\main\res\mipmap-xhdpi\ic_launcher.png
+----------------------------------------
+2019-03-21 11:19:57  info:  Succeed! 4001B-->3997B, 0.099975005% saved! F:\zero-android\matrix-master\samples\TestPlugin\app\src\main\res\mipmap-xhdpi\ic_launcher_round.png
+----------------------------------------
+2019-03-21 11:19:57  info:  Succeed! 3821B-->3802B, 0.49725202% saved! F:\zero-android\matrix-master\samples\TestPlugin\app\src\main\res\mipmap-xxhdpi\ic_launcher.png
+----------------------------------------
+2019-03-21 11:19:57  info:  Succeed! 5543B-->5541B, 0.036081545% saved! F:\zero-android\matrix-master\samples\TestPlugin\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.png
+----------------------------------------
+2019-03-21 11:19:57  info:  Succeed! 4960B-->4953B, 0.14112903% saved! F:\zero-android\matrix-master\samples\TestPlugin\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png
+----------------------------------------
+2019-03-21 11:19:57  info:  Succeed! 7444B-->7439B, 0.06716819% saved! F:\zero-android\matrix-master\samples\TestPlugin\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png
+----------------------------------------
+2019-03-21 11:19:57  info:  Total: 10, Succeed: 9, Skipped: 1, Failed: 0, Saved: 0.205078125KB
+----------------------------------------
+2019-03-21 11:19:57  info:  Task optimizeAppRelease executed successfully.
+----------------------------------------

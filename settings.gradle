@@ -1,0 +1,3 @@
+println("setting start")
+include ':app', ':plugin', ':iamge', ':transform', ':buildsrc', ':ASM', ':depend'
+println("setting end")
